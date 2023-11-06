@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoBlaze Test Suite">
+  <test name="DemoBlaze Test">
+    <classes>
+      <class name="com.example.tests.LoginTest" />
+      <class name="com.example.tests.ProductSearchTest" />
+      <!-- Add more test classes as needed -->
+    </classes>
+  </test>
+
+  <!-- You can define more tests with different configurations if necessary -->
+
+</suite>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.796" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="go to the About page" name="Go to the About page" time="0.051">
+<system-out><![CDATA[
+Given Open the browser in new window........................................passed
+Given I want to click on the about..........................................passed
+Then I want to view the video...............................................passed
+And I want to close the about...............................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="go to the cart page" name="Go to the Cart" time="0.033">
+<system-out><![CDATA[
+Given I want to click on the product........................................passed
+Then I want to click on add to cart.........................................passed
+Then I Want to handle the alert.............................................passed
+And I want to go to the cart................................................passed
+And I want to click place the order.........................................passed
+Then I Want to fill the TextBox.............................................passed
+And I want to click on purchase.............................................passed
+And I want to click ok when it shows purchase is done.......................passed
+Then I want to close the browser............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Go to contact" name="go to contact" time="0.031">
+<system-out><![CDATA[
+Given open the browser......................................................passed
+And I want to open contact..................................................passed
+Then I want to fill the text box............................................passed
+And I want to click on send message.........................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality for DemoBlaze E-commerce Website" name="Successful login with valid credentials" time="0.029">
+<system-out><![CDATA[
+Given Launch the browser....................................................passed
+Given I am on the DemoBlaze login page......................................passed
+Given I have entered a valid username and password..........................passed
+When I click on the login button............................................passed
+Then I should be logged in successfully.....................................passed
+And I clicked on the logout button..........................................passed
+Then close browser..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="signUp Functionality" name="User wants to signup" time="0.018">
+<system-out><![CDATA[
+Given Open the browser......................................................passed
+Given The user is on the signup page........................................passed
+When The user enters username and password..................................passed
+Then User clicks on signup button...........................................passed
+And User wants to login now.................................................passed
+And Click on the logout button..............................................passed
+Then Close browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
